@@ -37,7 +37,7 @@
   }
 }
 
-ul {
+ul li {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -46,9 +46,40 @@ ul {
 li{
   display: block;
 }
+ul li a{
+  text-decoration: none;
+  color: white;
+}
+.header ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #282c34;
+  color: white;
+  padding: 1px;
+}
+
+.header ul li {
+  display: inline-block;
+  padding: 10px;
+  margin: 8px;
+}
+.header ul :hover{
+  cursor: pointer;
+  background-color: #61dafb;
+  color: black;
+  border-radius: 12px;
+}
+.header ul li:hover {
+  background-color: #61dafb;
+  border-radius: 12px;
+}
+
+.header ul li:hover a {
+  color: black;
+}
 body{
   background-color:aliceblue;
-  font-size: 22px;
+  font-size: 20px;
 }
 .counter {
   text-align: center;
@@ -78,3 +109,20 @@ button:hover{
 .profile-text{
   margin: 40px;
 }
+
+.value-input {
+  margin-top: 60px;
+}
+select{
+  width: 150px;
+  height: 30px;
+  text-align: center;
+}
+
+.footer{
+  background-color: #282c34;
+  color: white;
+  height: 35px;
+}
+
+
